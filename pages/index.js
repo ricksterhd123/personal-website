@@ -5,6 +5,7 @@ import { Button } from "@chakra-ui/button";
 import { useColorMode } from "@chakra-ui/color-mode";
 import { Center, Container, Heading, List, ListItem } from "@chakra-ui/layout";
 import { Text } from "@chakra-ui/react";
+
 function ThemeSwitcher() {
   const { colorMode, toggleColorMode } = useColorMode();
   return (
